@@ -7,7 +7,7 @@
 		<key>LAniamtion.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -20,6 +20,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>CDACD97B236993E3008EA187</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDACDA18236996FB008EA187</key>
 		<dict>
 			<key>primary</key>
 			<true/>
