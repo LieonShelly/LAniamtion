@@ -8,26 +8,179 @@
 
 /* Begin PBXBuildFile section */
 		CDACD980236993E3008EA187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD97F236993E3008EA187 /* AppDelegate.swift */; };
-		CDACD982236993E3008EA187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD981236993E3008EA187 /* SceneDelegate.swift */; };
-		CDACD984236993E3008EA187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD983236993E3008EA187 /* ViewController.swift */; };
-		CDACD987236993E3008EA187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDACD985236993E3008EA187 /* Main.storyboard */; };
 		CDACD989236993E5008EA187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDACD988236993E5008EA187 /* Assets.xcassets */; };
 		CDACD98C236993E5008EA187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDACD98A236993E5008EA187 /* LaunchScreen.storyboard */; };
+		CDACD9AE2369943F008EA187 /* IFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9962369943F008EA187 /* IFExtension.swift */; };
+		CDACD9AF2369943F008EA187 /* AnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9972369943F008EA187 /* AnimationProtocol.swift */; };
+		CDACD9B02369943F008EA187 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9982369943F008EA187 /* Common.swift */; };
+		CDACD9B12369943F008EA187 /* PopImageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD99A2369943F008EA187 /* PopImageBrowser.swift */; };
+		CDACD9B42369943F008EA187 /* MultiLanguageAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD99E2369943F008EA187 /* MultiLanguageAlert.swift */; };
+		CDACD9B52369943F008EA187 /* TipPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A02369943F008EA187 /* TipPop.swift */; };
+		CDACD9B82369943F008EA187 /* Param.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A42369943F008EA187 /* Param.swift */; };
+		CDACD9B92369943F008EA187 /* PathSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A52369943F008EA187 /* PathSerivce.swift */; };
+		CDACD9BA2369943F008EA187 /* PopSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A62369943F008EA187 /* PopSerivce.swift */; };
+		CDACD9BB2369943F008EA187 /* FlipAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A82369943F008EA187 /* FlipAnimator.swift */; };
+		CDACD9BC2369943F008EA187 /* PinchAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A92369943F008EA187 /* PinchAnimation.swift */; };
+		CDACD9BD2369943F008EA187 /* PanAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9AA2369943F008EA187 /* PanAnimation.swift */; };
+		CDACD9BE2369943F008EA187 /* IFAnimaton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9AB2369943F008EA187 /* IFAnimaton.swift */; };
+		CDACD9BF2369943F008EA187 /* TapAniamtion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9AC2369943F008EA187 /* TapAniamtion.swift */; };
+		CDACD9C02369943F008EA187 /* ProgressAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9AD2369943F008EA187 /* ProgressAnimation.swift */; };
+		CDACD9EC2369945A008EA187 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9C22369945A008EA187 /* Protocol.swift */; };
+		CDACD9EE2369945A008EA187 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9C42369945A008EA187 /* Extensions.swift */; };
+		CDACD9EF2369945A008EA187 /* GuideStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9C62369945A008EA187 /* GuideStartViewController.swift */; };
+		CDACD9F02369945A008EA187 /* FlipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9C72369945A008EA187 /* FlipViewController.xib */; };
+		CDACD9F12369945A008EA187 /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9C82369945A008EA187 /* ProgressViewController.xib */; };
+		CDACD9F22369945A008EA187 /* LongPressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9C92369945A008EA187 /* LongPressViewController.xib */; };
+		CDACD9F32369945A008EA187 /* PinchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9CA2369945A008EA187 /* PinchViewController.xib */; };
+		CDACD9F42369945A008EA187 /* FlipSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9CB2369945A008EA187 /* FlipSubViewController.swift */; };
+		CDACD9F52369945A008EA187 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9CC2369945A008EA187 /* HomeViewController.xib */; };
+		CDACD9F62369945A008EA187 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9CD2369945A008EA187 /* RecordAudioViewController.swift */; };
+		CDACD9F72369945A008EA187 /* PanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9CE2369945A008EA187 /* PanViewController.swift */; };
+		CDACD9F82369945A008EA187 /* TipPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9CF2369945A008EA187 /* TipPopViewController.xib */; };
+		CDACD9F92369945A008EA187 /* TapAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9D02369945A008EA187 /* TapAnimationViewController.xib */; };
+		CDACD9FA2369945A008EA187 /* GuideStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9D12369945A008EA187 /* GuideStartViewController.xib */; };
+		CDACD9FB2369945A008EA187 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9D22369945A008EA187 /* HomeViewController.swift */; };
+		CDACD9FC2369945A008EA187 /* BtnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9D32369945A008EA187 /* BtnViewController.xib */; };
+		CDACD9FD2369945A008EA187 /* FlipSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9D42369945A008EA187 /* FlipSubViewController.xib */; };
+		CDACD9FE2369945A008EA187 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9D52369945A008EA187 /* TestViewController.swift */; };
+		CDACD9FF2369945A008EA187 /* FlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9D62369945A008EA187 /* FlipViewController.swift */; };
+		CDACDA012369945A008EA187 /* TipPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9D82369945A008EA187 /* TipPopViewController.swift */; };
+		CDACDA022369945A008EA187 /* BtnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9D92369945A008EA187 /* BtnViewController.swift */; };
+		CDACDA032369945A008EA187 /* RecordAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9DA2369945A008EA187 /* RecordAudioViewController.xib */; };
+		CDACDA042369945A008EA187 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9DB2369945A008EA187 /* TestViewController.xib */; };
+		CDACDA052369945A008EA187 /* PanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9DC2369945A008EA187 /* PanViewController.xib */; };
+		CDACDA062369945A008EA187 /* TapAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9DD2369945A008EA187 /* TapAnimationViewController.swift */; };
+		CDACDA072369945A008EA187 /* LongPressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9DE2369945A008EA187 /* LongPressViewController.swift */; };
+		CDACDA082369945A008EA187 /* PinchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9DF2369945A008EA187 /* PinchViewController.swift */; };
+		CDACDA092369945A008EA187 /* DemoTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9E02369945A008EA187 /* DemoTouchViewController.xib */; };
+		CDACDA0A2369945A008EA187 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9E12369945A008EA187 /* ProgressViewController.swift */; };
+		CDACDA0B2369945A008EA187 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9E32369945A008EA187 /* ImageCollectionViewCell.xib */; };
+		CDACDA0C2369945A008EA187 /* ZoomScollVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9E42369945A008EA187 /* ZoomScollVIew.swift */; };
+		CDACDA0D2369945A008EA187 /* PinchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9E52369945A008EA187 /* PinchView.swift */; };
+		CDACDA0E2369945A008EA187 /* ImageTitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9E62369945A008EA187 /* ImageTitleCollectionViewCell.swift */; };
+		CDACDA0F2369945A008EA187 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9E72369945A008EA187 /* ImageCollectionViewCell.swift */; };
+		CDACDA102369945A008EA187 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9E82369945A008EA187 /* TouchView.swift */; };
+		CDACDA112369945A008EA187 /* GuideStartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9E92369945A008EA187 /* GuideStartView.xib */; };
+		CDACDA122369945A008EA187 /* ImageTitleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDACD9EA2369945A008EA187 /* ImageTitleCollectionViewCell.xib */; };
+		CDACDA132369945A008EA187 /* GuideStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9EB2369945A008EA187 /* GuideStartView.swift */; };
+		CDACDA1D236996FB008EA187 /* LAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDACDA1B236996FB008EA187 /* LAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDACDA20236996FB008EA187 /* LAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDACDA19236996FB008EA187 /* LAnimation.framework */; };
+		CDACDA21236996FB008EA187 /* LAnimation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDACDA19236996FB008EA187 /* LAnimation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDACDA2623699718008EA187 /* IFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9962369943F008EA187 /* IFExtension.swift */; };
+		CDACDA2723699718008EA187 /* AnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9972369943F008EA187 /* AnimationProtocol.swift */; };
+		CDACDA2823699718008EA187 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9982369943F008EA187 /* Common.swift */; };
+		CDACDA2923699718008EA187 /* PopImageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD99A2369943F008EA187 /* PopImageBrowser.swift */; };
+		CDACDA2A23699718008EA187 /* MultiLanguageAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD99E2369943F008EA187 /* MultiLanguageAlert.swift */; };
+		CDACDA2B23699718008EA187 /* TipPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A02369943F008EA187 /* TipPop.swift */; };
+		CDACDA2C23699718008EA187 /* Param.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A42369943F008EA187 /* Param.swift */; };
+		CDACDA2D23699718008EA187 /* PathSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A52369943F008EA187 /* PathSerivce.swift */; };
+		CDACDA2E23699718008EA187 /* PopSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A62369943F008EA187 /* PopSerivce.swift */; };
+		CDACDA2F23699718008EA187 /* FlipAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A82369943F008EA187 /* FlipAnimator.swift */; };
+		CDACDA3023699718008EA187 /* PinchAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9A92369943F008EA187 /* PinchAnimation.swift */; };
+		CDACDA3123699718008EA187 /* PanAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9AA2369943F008EA187 /* PanAnimation.swift */; };
+		CDACDA3223699718008EA187 /* IFAnimaton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9AB2369943F008EA187 /* IFAnimaton.swift */; };
+		CDACDA3323699718008EA187 /* TapAniamtion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9AC2369943F008EA187 /* TapAniamtion.swift */; };
+		CDACDA3423699718008EA187 /* ProgressAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDACD9AD2369943F008EA187 /* ProgressAnimation.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDACDA1E236996FB008EA187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDACD974236993E3008EA187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDACDA18236996FB008EA187;
+			remoteInfo = LAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDACDA25236996FB008EA187 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CDACDA21236996FB008EA187 /* LAnimation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CDACD97C236993E3008EA187 /* LAniamtion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAniamtion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDACD97F236993E3008EA187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDACD981236993E3008EA187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDACD983236993E3008EA187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDACD986236993E3008EA187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDACD988236993E5008EA187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDACD98B236993E5008EA187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDACD98D236993E5008EA187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDACD9962369943F008EA187 /* IFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFExtension.swift; sourceTree = "<group>"; };
+		CDACD9972369943F008EA187 /* AnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationProtocol.swift; sourceTree = "<group>"; };
+		CDACD9982369943F008EA187 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		CDACD99A2369943F008EA187 /* PopImageBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopImageBrowser.swift; sourceTree = "<group>"; };
+		CDACD99E2369943F008EA187 /* MultiLanguageAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiLanguageAlert.swift; sourceTree = "<group>"; };
+		CDACD9A02369943F008EA187 /* TipPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipPop.swift; sourceTree = "<group>"; };
+		CDACD9A42369943F008EA187 /* Param.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Param.swift; sourceTree = "<group>"; };
+		CDACD9A52369943F008EA187 /* PathSerivce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathSerivce.swift; sourceTree = "<group>"; };
+		CDACD9A62369943F008EA187 /* PopSerivce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopSerivce.swift; sourceTree = "<group>"; };
+		CDACD9A82369943F008EA187 /* FlipAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipAnimator.swift; sourceTree = "<group>"; };
+		CDACD9A92369943F008EA187 /* PinchAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchAnimation.swift; sourceTree = "<group>"; };
+		CDACD9AA2369943F008EA187 /* PanAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanAnimation.swift; sourceTree = "<group>"; };
+		CDACD9AB2369943F008EA187 /* IFAnimaton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFAnimaton.swift; sourceTree = "<group>"; };
+		CDACD9AC2369943F008EA187 /* TapAniamtion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAniamtion.swift; sourceTree = "<group>"; };
+		CDACD9AD2369943F008EA187 /* ProgressAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressAnimation.swift; sourceTree = "<group>"; };
+		CDACD9C22369945A008EA187 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		CDACD9C42369945A008EA187 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CDACD9C62369945A008EA187 /* GuideStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideStartViewController.swift; sourceTree = "<group>"; };
+		CDACD9C72369945A008EA187 /* FlipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipViewController.xib; sourceTree = "<group>"; };
+		CDACD9C82369945A008EA187 /* ProgressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressViewController.xib; sourceTree = "<group>"; };
+		CDACD9C92369945A008EA187 /* LongPressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LongPressViewController.xib; sourceTree = "<group>"; };
+		CDACD9CA2369945A008EA187 /* PinchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinchViewController.xib; sourceTree = "<group>"; };
+		CDACD9CB2369945A008EA187 /* FlipSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipSubViewController.swift; sourceTree = "<group>"; };
+		CDACD9CC2369945A008EA187 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		CDACD9CD2369945A008EA187 /* RecordAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
+		CDACD9CE2369945A008EA187 /* PanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanViewController.swift; sourceTree = "<group>"; };
+		CDACD9CF2369945A008EA187 /* TipPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipPopViewController.xib; sourceTree = "<group>"; };
+		CDACD9D02369945A008EA187 /* TapAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapAnimationViewController.xib; sourceTree = "<group>"; };
+		CDACD9D12369945A008EA187 /* GuideStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideStartViewController.xib; sourceTree = "<group>"; };
+		CDACD9D22369945A008EA187 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CDACD9D32369945A008EA187 /* BtnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BtnViewController.xib; sourceTree = "<group>"; };
+		CDACD9D42369945A008EA187 /* FlipSubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipSubViewController.xib; sourceTree = "<group>"; };
+		CDACD9D52369945A008EA187 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		CDACD9D62369945A008EA187 /* FlipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipViewController.swift; sourceTree = "<group>"; };
+		CDACD9D82369945A008EA187 /* TipPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipPopViewController.swift; sourceTree = "<group>"; };
+		CDACD9D92369945A008EA187 /* BtnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnViewController.swift; sourceTree = "<group>"; };
+		CDACD9DA2369945A008EA187 /* RecordAudioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordAudioViewController.xib; sourceTree = "<group>"; };
+		CDACD9DB2369945A008EA187 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		CDACD9DC2369945A008EA187 /* PanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanViewController.xib; sourceTree = "<group>"; };
+		CDACD9DD2369945A008EA187 /* TapAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAnimationViewController.swift; sourceTree = "<group>"; };
+		CDACD9DE2369945A008EA187 /* LongPressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressViewController.swift; sourceTree = "<group>"; };
+		CDACD9DF2369945A008EA187 /* PinchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchViewController.swift; sourceTree = "<group>"; };
+		CDACD9E02369945A008EA187 /* DemoTouchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoTouchViewController.xib; sourceTree = "<group>"; };
+		CDACD9E12369945A008EA187 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		CDACD9E32369945A008EA187 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		CDACD9E42369945A008EA187 /* ZoomScollVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomScollVIew.swift; sourceTree = "<group>"; };
+		CDACD9E52369945A008EA187 /* PinchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchView.swift; sourceTree = "<group>"; };
+		CDACD9E62369945A008EA187 /* ImageTitleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		CDACD9E72369945A008EA187 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		CDACD9E82369945A008EA187 /* TouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
+		CDACD9E92369945A008EA187 /* GuideStartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideStartView.xib; sourceTree = "<group>"; };
+		CDACD9EA2369945A008EA187 /* ImageTitleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTitleCollectionViewCell.xib; sourceTree = "<group>"; };
+		CDACD9EB2369945A008EA187 /* GuideStartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideStartView.swift; sourceTree = "<group>"; };
+		CDACDA19236996FB008EA187 /* LAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDACDA1B236996FB008EA187 /* LAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAnimation.h; sourceTree = "<group>"; };
+		CDACDA1C236996FB008EA187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CDACD979236993E3008EA187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDACDA20236996FB008EA187 /* LAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDACDA16236996FB008EA187 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				CDACD97E236993E3008EA187 /* LAniamtion */,
+				CDACDA1A236996FB008EA187 /* LAnimation */,
 				CDACD97D236993E3008EA187 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				CDACD97C236993E3008EA187 /* LAniamtion.app */,
+				CDACDA19236996FB008EA187 /* LAnimation.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,10 +211,9 @@
 		CDACD97E236993E3008EA187 /* LAniamtion */ = {
 			isa = PBXGroup;
 			children = (
+				CDACD9942369943F008EA187 /* Source */,
+				CDACD99323699431008EA187 /* Examples */,
 				CDACD97F236993E3008EA187 /* AppDelegate.swift */,
-				CDACD981236993E3008EA187 /* SceneDelegate.swift */,
-				CDACD983236993E3008EA187 /* ViewController.swift */,
-				CDACD985236993E3008EA187 /* Main.storyboard */,
 				CDACD988236993E5008EA187 /* Assets.xcassets */,
 				CDACD98A236993E5008EA187 /* LaunchScreen.storyboard */,
 				CDACD98D236993E5008EA187 /* Info.plist */,
@@ -67,7 +221,166 @@
 			path = LAniamtion;
 			sourceTree = "<group>";
 		};
+		CDACD99323699431008EA187 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD9C52369945A008EA187 /* Controller */,
+				CDACD9C12369945A008EA187 /* Vender */,
+				CDACD9E22369945A008EA187 /* View */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		CDACD9942369943F008EA187 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD9952369943F008EA187 /* Extension */,
+				CDACD9972369943F008EA187 /* AnimationProtocol.swift */,
+				CDACD9982369943F008EA187 /* Common.swift */,
+				CDACD9992369943F008EA187 /* Controller */,
+				CDACD99D2369943F008EA187 /* Model */,
+				CDACD99F2369943F008EA187 /* View */,
+				CDACD9A32369943F008EA187 /* Service */,
+				CDACD9A72369943F008EA187 /* Animations */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CDACD9952369943F008EA187 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD9962369943F008EA187 /* IFExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CDACD9992369943F008EA187 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD99A2369943F008EA187 /* PopImageBrowser.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDACD99D2369943F008EA187 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD99E2369943F008EA187 /* MultiLanguageAlert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDACD99F2369943F008EA187 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD9A02369943F008EA187 /* TipPop.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDACD9A32369943F008EA187 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD9A42369943F008EA187 /* Param.swift */,
+				CDACD9A52369943F008EA187 /* PathSerivce.swift */,
+				CDACD9A62369943F008EA187 /* PopSerivce.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CDACD9A72369943F008EA187 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD9A82369943F008EA187 /* FlipAnimator.swift */,
+				CDACD9A92369943F008EA187 /* PinchAnimation.swift */,
+				CDACD9AA2369943F008EA187 /* PanAnimation.swift */,
+				CDACD9AB2369943F008EA187 /* IFAnimaton.swift */,
+				CDACD9AC2369943F008EA187 /* TapAniamtion.swift */,
+				CDACD9AD2369943F008EA187 /* ProgressAnimation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		CDACD9C12369945A008EA187 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD9C22369945A008EA187 /* Protocol.swift */,
+				CDACD9C42369945A008EA187 /* Extensions.swift */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		CDACD9C52369945A008EA187 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD9C62369945A008EA187 /* GuideStartViewController.swift */,
+				CDACD9C72369945A008EA187 /* FlipViewController.xib */,
+				CDACD9C82369945A008EA187 /* ProgressViewController.xib */,
+				CDACD9C92369945A008EA187 /* LongPressViewController.xib */,
+				CDACD9CA2369945A008EA187 /* PinchViewController.xib */,
+				CDACD9CB2369945A008EA187 /* FlipSubViewController.swift */,
+				CDACD9CC2369945A008EA187 /* HomeViewController.xib */,
+				CDACD9CD2369945A008EA187 /* RecordAudioViewController.swift */,
+				CDACD9CE2369945A008EA187 /* PanViewController.swift */,
+				CDACD9CF2369945A008EA187 /* TipPopViewController.xib */,
+				CDACD9D02369945A008EA187 /* TapAnimationViewController.xib */,
+				CDACD9D12369945A008EA187 /* GuideStartViewController.xib */,
+				CDACD9D22369945A008EA187 /* HomeViewController.swift */,
+				CDACD9D32369945A008EA187 /* BtnViewController.xib */,
+				CDACD9D42369945A008EA187 /* FlipSubViewController.xib */,
+				CDACD9D52369945A008EA187 /* TestViewController.swift */,
+				CDACD9D62369945A008EA187 /* FlipViewController.swift */,
+				CDACD9D82369945A008EA187 /* TipPopViewController.swift */,
+				CDACD9D92369945A008EA187 /* BtnViewController.swift */,
+				CDACD9DA2369945A008EA187 /* RecordAudioViewController.xib */,
+				CDACD9DB2369945A008EA187 /* TestViewController.xib */,
+				CDACD9DC2369945A008EA187 /* PanViewController.xib */,
+				CDACD9DD2369945A008EA187 /* TapAnimationViewController.swift */,
+				CDACD9DE2369945A008EA187 /* LongPressViewController.swift */,
+				CDACD9DF2369945A008EA187 /* PinchViewController.swift */,
+				CDACD9E02369945A008EA187 /* DemoTouchViewController.xib */,
+				CDACD9E12369945A008EA187 /* ProgressViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDACD9E22369945A008EA187 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD9E32369945A008EA187 /* ImageCollectionViewCell.xib */,
+				CDACD9E42369945A008EA187 /* ZoomScollVIew.swift */,
+				CDACD9E52369945A008EA187 /* PinchView.swift */,
+				CDACD9E62369945A008EA187 /* ImageTitleCollectionViewCell.swift */,
+				CDACD9E72369945A008EA187 /* ImageCollectionViewCell.swift */,
+				CDACD9E82369945A008EA187 /* TouchView.swift */,
+				CDACD9E92369945A008EA187 /* GuideStartView.xib */,
+				CDACD9EA2369945A008EA187 /* ImageTitleCollectionViewCell.xib */,
+				CDACD9EB2369945A008EA187 /* GuideStartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDACDA1A236996FB008EA187 /* LAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CDACDA1B236996FB008EA187 /* LAnimation.h */,
+				CDACDA1C236996FB008EA187 /* Info.plist */,
+			);
+			path = LAnimation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CDACDA14236996FB008EA187 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDACDA1D236996FB008EA187 /* LAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		CDACD97B236993E3008EA187 /* LAniamtion */ = {
@@ -77,15 +390,35 @@
 				CDACD978236993E3008EA187 /* Sources */,
 				CDACD979236993E3008EA187 /* Frameworks */,
 				CDACD97A236993E3008EA187 /* Resources */,
+				CDACDA25236996FB008EA187 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CDACDA1F236996FB008EA187 /* PBXTargetDependency */,
 			);
 			name = LAniamtion;
 			productName = LAniamtion;
 			productReference = CDACD97C236993E3008EA187 /* LAniamtion.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CDACDA18236996FB008EA187 /* LAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDACDA22236996FB008EA187 /* Build configuration list for PBXNativeTarget "LAnimation" */;
+			buildPhases = (
+				CDACDA14236996FB008EA187 /* Headers */,
+				CDACDA15236996FB008EA187 /* Sources */,
+				CDACDA16236996FB008EA187 /* Frameworks */,
+				CDACDA17236996FB008EA187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAnimation;
+			productName = LAnimation;
+			productReference = CDACDA19236996FB008EA187 /* LAnimation.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +431,9 @@
 				ORGANIZATIONNAME = lieon;
 				TargetAttributes = {
 					CDACD97B236993E3008EA187 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CDACDA18236996FB008EA187 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
@@ -116,6 +452,7 @@
 			projectRoot = "";
 			targets = (
 				CDACD97B236993E3008EA187 /* LAniamtion */,
+				CDACDA18236996FB008EA187 /* LAnimation */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +462,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDACD9F22369945A008EA187 /* LongPressViewController.xib in Resources */,
+				CDACD9FA2369945A008EA187 /* GuideStartViewController.xib in Resources */,
+				CDACD9F32369945A008EA187 /* PinchViewController.xib in Resources */,
+				CDACD9FC2369945A008EA187 /* BtnViewController.xib in Resources */,
+				CDACD9F82369945A008EA187 /* TipPopViewController.xib in Resources */,
+				CDACD9F12369945A008EA187 /* ProgressViewController.xib in Resources */,
 				CDACD98C236993E5008EA187 /* LaunchScreen.storyboard in Resources */,
 				CDACD989236993E5008EA187 /* Assets.xcassets in Resources */,
-				CDACD987236993E3008EA187 /* Main.storyboard in Resources */,
+				CDACDA112369945A008EA187 /* GuideStartView.xib in Resources */,
+				CDACDA092369945A008EA187 /* DemoTouchViewController.xib in Resources */,
+				CDACD9F92369945A008EA187 /* TapAnimationViewController.xib in Resources */,
+				CDACDA122369945A008EA187 /* ImageTitleCollectionViewCell.xib in Resources */,
+				CDACDA042369945A008EA187 /* TestViewController.xib in Resources */,
+				CDACD9FD2369945A008EA187 /* FlipSubViewController.xib in Resources */,
+				CDACDA0B2369945A008EA187 /* ImageCollectionViewCell.xib in Resources */,
+				CDACD9F52369945A008EA187 /* HomeViewController.xib in Resources */,
+				CDACDA032369945A008EA187 /* RecordAudioViewController.xib in Resources */,
+				CDACDA052369945A008EA187 /* PanViewController.xib in Resources */,
+				CDACD9F02369945A008EA187 /* FlipViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDACDA17236996FB008EA187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +498,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDACD984236993E3008EA187 /* ViewController.swift in Sources */,
+				CDACDA132369945A008EA187 /* GuideStartView.swift in Sources */,
+				CDACD9F72369945A008EA187 /* PanViewController.swift in Sources */,
+				CDACD9BA2369943F008EA187 /* PopSerivce.swift in Sources */,
+				CDACD9F62369945A008EA187 /* RecordAudioViewController.swift in Sources */,
+				CDACDA082369945A008EA187 /* PinchViewController.swift in Sources */,
+				CDACD9B12369943F008EA187 /* PopImageBrowser.swift in Sources */,
+				CDACD9B52369943F008EA187 /* TipPop.swift in Sources */,
+				CDACD9B42369943F008EA187 /* MultiLanguageAlert.swift in Sources */,
+				CDACD9C02369943F008EA187 /* ProgressAnimation.swift in Sources */,
+				CDACD9BC2369943F008EA187 /* PinchAnimation.swift in Sources */,
+				CDACD9AF2369943F008EA187 /* AnimationProtocol.swift in Sources */,
+				CDACD9EF2369945A008EA187 /* GuideStartViewController.swift in Sources */,
+				CDACDA0E2369945A008EA187 /* ImageTitleCollectionViewCell.swift in Sources */,
+				CDACDA102369945A008EA187 /* TouchView.swift in Sources */,
+				CDACDA012369945A008EA187 /* TipPopViewController.swift in Sources */,
+				CDACDA0A2369945A008EA187 /* ProgressViewController.swift in Sources */,
+				CDACDA0C2369945A008EA187 /* ZoomScollVIew.swift in Sources */,
+				CDACD9EE2369945A008EA187 /* Extensions.swift in Sources */,
+				CDACD9FE2369945A008EA187 /* TestViewController.swift in Sources */,
+				CDACD9FF2369945A008EA187 /* FlipViewController.swift in Sources */,
+				CDACDA0D2369945A008EA187 /* PinchView.swift in Sources */,
+				CDACD9FB2369945A008EA187 /* HomeViewController.swift in Sources */,
+				CDACD9BF2369943F008EA187 /* TapAniamtion.swift in Sources */,
+				CDACDA0F2369945A008EA187 /* ImageCollectionViewCell.swift in Sources */,
+				CDACDA022369945A008EA187 /* BtnViewController.swift in Sources */,
+				CDACDA072369945A008EA187 /* LongPressViewController.swift in Sources */,
+				CDACD9BE2369943F008EA187 /* IFAnimaton.swift in Sources */,
+				CDACD9B82369943F008EA187 /* Param.swift in Sources */,
+				CDACD9AE2369943F008EA187 /* IFExtension.swift in Sources */,
+				CDACD9B02369943F008EA187 /* Common.swift in Sources */,
+				CDACD9F42369945A008EA187 /* FlipSubViewController.swift in Sources */,
+				CDACD9BD2369943F008EA187 /* PanAnimation.swift in Sources */,
+				CDACDA062369945A008EA187 /* TapAnimationViewController.swift in Sources */,
+				CDACD9B92369943F008EA187 /* PathSerivce.swift in Sources */,
 				CDACD980236993E3008EA187 /* AppDelegate.swift in Sources */,
-				CDACD982236993E3008EA187 /* SceneDelegate.swift in Sources */,
+				CDACD9BB2369943F008EA187 /* FlipAnimator.swift in Sources */,
+				CDACD9EC2369945A008EA187 /* Protocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDACDA15236996FB008EA187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDACDA2623699718008EA187 /* IFExtension.swift in Sources */,
+				CDACDA2723699718008EA187 /* AnimationProtocol.swift in Sources */,
+				CDACDA2823699718008EA187 /* Common.swift in Sources */,
+				CDACDA2923699718008EA187 /* PopImageBrowser.swift in Sources */,
+				CDACDA2A23699718008EA187 /* MultiLanguageAlert.swift in Sources */,
+				CDACDA2B23699718008EA187 /* TipPop.swift in Sources */,
+				CDACDA2C23699718008EA187 /* Param.swift in Sources */,
+				CDACDA2D23699718008EA187 /* PathSerivce.swift in Sources */,
+				CDACDA2E23699718008EA187 /* PopSerivce.swift in Sources */,
+				CDACDA2F23699718008EA187 /* FlipAnimator.swift in Sources */,
+				CDACDA3023699718008EA187 /* PinchAnimation.swift in Sources */,
+				CDACDA3123699718008EA187 /* PanAnimation.swift in Sources */,
+				CDACDA3223699718008EA187 /* IFAnimaton.swift in Sources */,
+				CDACDA3323699718008EA187 /* TapAniamtion.swift in Sources */,
+				CDACDA3423699718008EA187 /* ProgressAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		CDACD985236993E3008EA187 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDACD986236993E3008EA187 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		CDACDA1F236996FB008EA187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDACDA18236996FB008EA187 /* LAnimation */;
+			targetProxy = CDACDA1E236996FB008EA187 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		CDACD98A236993E5008EA187 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,9 +699,11 @@
 		CDACD991236993E5008EA187 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LAniamtion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,16 +711,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.LAniamtion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CDACD992236993E5008EA187 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LAniamtion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +730,59 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.LAniamtion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CDACDA23236996FB008EA187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LAnimation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDACDA24236996FB008EA187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LAnimation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -331,6 +803,15 @@
 			buildConfigurations = (
 				CDACD991236993E5008EA187 /* Debug */,
 				CDACD992236993E5008EA187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDACDA22236996FB008EA187 /* Build configuration list for PBXNativeTarget "LAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDACDA23236996FB008EA187 /* Debug */,
+				CDACDA24236996FB008EA187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
