@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDACDA18236996FB008EA187"
-               BuildableName = "LAnimation.framework"
-               BlueprintName = "LAnimation"
-               ReferencedContainer = "container:LAniamtion.xcodeproj">
+               BlueprintIdentifier = "CDACD97B236993E3008EA187"
+               BuildableName = "LAniamtion.app"
+               BlueprintName = "LAniamtion"
+               ReferencedContainer = "container:LAnimation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CDACD97B236993E3008EA187"
+            BuildableName = "LAniamtion.app"
+            BlueprintName = "LAniamtion"
+            ReferencedContainer = "container:LAnimation.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CDACDA18236996FB008EA187"
-            BuildableName = "LAnimation.framework"
-            BlueprintName = "LAnimation"
-            ReferencedContainer = "container:LAniamtion.xcodeproj">
+            BlueprintIdentifier = "CDACD97B236993E3008EA187"
+            BuildableName = "LAniamtion.app"
+            BlueprintName = "LAniamtion"
+            ReferencedContainer = "container:LAnimation.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

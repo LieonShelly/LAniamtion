@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8B4954236AC675006D9B45 /* LAnimation.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = CD8B490B236AC675006D9B45 /* LAnimation.xcworkspace */; };
+		CD8B4955236AC675006D9B45 /* IFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4911236AC675006D9B45 /* IFExtension.swift */; };
+		CD8B4956236AC675006D9B45 /* AnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4912236AC675006D9B45 /* AnimationProtocol.swift */; };
+		CD8B4957236AC675006D9B45 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4913236AC675006D9B45 /* Common.swift */; };
+		CD8B4958236AC675006D9B45 /* PopImageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4915236AC675006D9B45 /* PopImageBrowser.swift */; };
+		CD8B4959236AC675006D9B45 /* MultiLanguageAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4917236AC675006D9B45 /* MultiLanguageAlert.swift */; };
+		CD8B495A236AC675006D9B45 /* TipPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4919236AC675006D9B45 /* TipPop.swift */; };
+		CD8B495B236AC675006D9B45 /* Param.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B491B236AC675006D9B45 /* Param.swift */; };
+		CD8B495C236AC675006D9B45 /* PathSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B491C236AC675006D9B45 /* PathSerivce.swift */; };
+		CD8B495D236AC675006D9B45 /* PopSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B491D236AC675006D9B45 /* PopSerivce.swift */; };
+		CD8B495E236AC675006D9B45 /* FlipAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B491F236AC675006D9B45 /* FlipAnimator.swift */; };
+		CD8B495F236AC675006D9B45 /* PinchAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4920236AC675006D9B45 /* PinchAnimation.swift */; };
+		CD8B4960236AC675006D9B45 /* PanAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4921236AC675006D9B45 /* PanAnimation.swift */; };
+		CD8B4961236AC675006D9B45 /* IFAnimaton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4922236AC675006D9B45 /* IFAnimaton.swift */; };
+		CD8B4962236AC675006D9B45 /* TapAniamtion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4923236AC675006D9B45 /* TapAniamtion.swift */; };
+		CD8B4963236AC675006D9B45 /* ProgressAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4924236AC675006D9B45 /* ProgressAnimation.swift */; };
+		CD8B4964236AC675006D9B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4925236AC675006D9B45 /* Assets.xcassets */; };
+		CD8B4965236AC675006D9B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4926236AC675006D9B45 /* LaunchScreen.storyboard */; };
+		CD8B4966236AC675006D9B45 /* GuideStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B492A236AC675006D9B45 /* GuideStartViewController.swift */; };
+		CD8B4967236AC675006D9B45 /* FlipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B492B236AC675006D9B45 /* FlipViewController.xib */; };
+		CD8B4968236AC675006D9B45 /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B492C236AC675006D9B45 /* ProgressViewController.xib */; };
+		CD8B4969236AC675006D9B45 /* LongPressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B492D236AC675006D9B45 /* LongPressViewController.xib */; };
+		CD8B496A236AC675006D9B45 /* PinchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B492E236AC675006D9B45 /* PinchViewController.xib */; };
+		CD8B496B236AC675006D9B45 /* FlipSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B492F236AC675006D9B45 /* FlipSubViewController.swift */; };
+		CD8B496C236AC675006D9B45 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4930236AC675006D9B45 /* HomeViewController.xib */; };
+		CD8B496D236AC675006D9B45 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4931236AC675006D9B45 /* RecordAudioViewController.swift */; };
+		CD8B496E236AC675006D9B45 /* PanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4932236AC675006D9B45 /* PanViewController.swift */; };
+		CD8B496F236AC675006D9B45 /* TipPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4933236AC675006D9B45 /* TipPopViewController.xib */; };
+		CD8B4970236AC675006D9B45 /* TapAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4934236AC675006D9B45 /* TapAnimationViewController.xib */; };
+		CD8B4971236AC675006D9B45 /* GuideStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4935236AC675006D9B45 /* GuideStartViewController.xib */; };
+		CD8B4972236AC675006D9B45 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4936236AC675006D9B45 /* HomeViewController.swift */; };
+		CD8B4973236AC675006D9B45 /* BtnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4937236AC675006D9B45 /* BtnViewController.xib */; };
+		CD8B4974236AC675006D9B45 /* FlipSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4938236AC675006D9B45 /* FlipSubViewController.xib */; };
+		CD8B4975236AC675006D9B45 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4939236AC675006D9B45 /* TestViewController.swift */; };
+		CD8B4976236AC675006D9B45 /* FlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B493A236AC675006D9B45 /* FlipViewController.swift */; };
+		CD8B4977236AC675006D9B45 /* TipPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B493B236AC675006D9B45 /* TipPopViewController.swift */; };
+		CD8B4978236AC675006D9B45 /* BtnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B493C236AC675006D9B45 /* BtnViewController.swift */; };
+		CD8B4979236AC675006D9B45 /* RecordAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B493D236AC675006D9B45 /* RecordAudioViewController.xib */; };
+		CD8B497A236AC675006D9B45 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B493E236AC675006D9B45 /* TestViewController.xib */; };
+		CD8B497B236AC675006D9B45 /* PanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B493F236AC675006D9B45 /* PanViewController.xib */; };
+		CD8B497C236AC675006D9B45 /* TapAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4940236AC675006D9B45 /* TapAnimationViewController.swift */; };
+		CD8B497D236AC675006D9B45 /* LongPressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4941236AC675006D9B45 /* LongPressViewController.swift */; };
+		CD8B497E236AC675006D9B45 /* PinchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4942236AC675006D9B45 /* PinchViewController.swift */; };
+		CD8B497F236AC675006D9B45 /* DemoTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4943236AC675006D9B45 /* DemoTouchViewController.xib */; };
+		CD8B4980236AC675006D9B45 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4944236AC675006D9B45 /* ProgressViewController.swift */; };
+		CD8B4981236AC675006D9B45 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4946236AC675006D9B45 /* ImageCollectionViewCell.xib */; };
+		CD8B4982236AC675006D9B45 /* ZoomScollVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4947236AC675006D9B45 /* ZoomScollVIew.swift */; };
+		CD8B4983236AC675006D9B45 /* PinchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4948236AC675006D9B45 /* PinchView.swift */; };
+		CD8B4984236AC675006D9B45 /* ImageTitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4949236AC675006D9B45 /* ImageTitleCollectionViewCell.swift */; };
+		CD8B4985236AC675006D9B45 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B494A236AC675006D9B45 /* ImageCollectionViewCell.swift */; };
+		CD8B4986236AC675006D9B45 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B494B236AC675006D9B45 /* TouchView.swift */; };
+		CD8B4987236AC675006D9B45 /* GuideStartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B494C236AC675006D9B45 /* GuideStartView.xib */; };
+		CD8B4988236AC675006D9B45 /* ImageTitleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B494D236AC675006D9B45 /* ImageTitleCollectionViewCell.xib */; };
+		CD8B4989236AC675006D9B45 /* GuideStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B494E236AC675006D9B45 /* GuideStartView.swift */; };
+		CD8B498A236AC675006D9B45 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4950236AC675006D9B45 /* Protocol.swift */; };
+		CD8B498B236AC675006D9B45 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4951236AC675006D9B45 /* Extensions.swift */; };
+		CD8B498C236AC675006D9B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4952236AC675006D9B45 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDACDA25236996FB008EA187 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD8B490B236AC675006D9B45 /* LAnimation.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = LAnimation.xcworkspace; sourceTree = "<group>"; };
+		CD8B4911236AC675006D9B45 /* IFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFExtension.swift; sourceTree = "<group>"; };
+		CD8B4912236AC675006D9B45 /* AnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationProtocol.swift; sourceTree = "<group>"; };
+		CD8B4913236AC675006D9B45 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		CD8B4915236AC675006D9B45 /* PopImageBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopImageBrowser.swift; sourceTree = "<group>"; };
+		CD8B4917236AC675006D9B45 /* MultiLanguageAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiLanguageAlert.swift; sourceTree = "<group>"; };
+		CD8B4919236AC675006D9B45 /* TipPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipPop.swift; sourceTree = "<group>"; };
+		CD8B491B236AC675006D9B45 /* Param.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Param.swift; sourceTree = "<group>"; };
+		CD8B491C236AC675006D9B45 /* PathSerivce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathSerivce.swift; sourceTree = "<group>"; };
+		CD8B491D236AC675006D9B45 /* PopSerivce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopSerivce.swift; sourceTree = "<group>"; };
+		CD8B491F236AC675006D9B45 /* FlipAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipAnimator.swift; sourceTree = "<group>"; };
+		CD8B4920236AC675006D9B45 /* PinchAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchAnimation.swift; sourceTree = "<group>"; };
+		CD8B4921236AC675006D9B45 /* PanAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanAnimation.swift; sourceTree = "<group>"; };
+		CD8B4922236AC675006D9B45 /* IFAnimaton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFAnimaton.swift; sourceTree = "<group>"; };
+		CD8B4923236AC675006D9B45 /* TapAniamtion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAniamtion.swift; sourceTree = "<group>"; };
+		CD8B4924236AC675006D9B45 /* ProgressAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressAnimation.swift; sourceTree = "<group>"; };
+		CD8B4925236AC675006D9B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD8B4927236AC675006D9B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD8B492A236AC675006D9B45 /* GuideStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideStartViewController.swift; sourceTree = "<group>"; };
+		CD8B492B236AC675006D9B45 /* FlipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipViewController.xib; sourceTree = "<group>"; };
+		CD8B492C236AC675006D9B45 /* ProgressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressViewController.xib; sourceTree = "<group>"; };
+		CD8B492D236AC675006D9B45 /* LongPressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LongPressViewController.xib; sourceTree = "<group>"; };
+		CD8B492E236AC675006D9B45 /* PinchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinchViewController.xib; sourceTree = "<group>"; };
+		CD8B492F236AC675006D9B45 /* FlipSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipSubViewController.swift; sourceTree = "<group>"; };
+		CD8B4930236AC675006D9B45 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		CD8B4931236AC675006D9B45 /* RecordAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
+		CD8B4932236AC675006D9B45 /* PanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanViewController.swift; sourceTree = "<group>"; };
+		CD8B4933236AC675006D9B45 /* TipPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipPopViewController.xib; sourceTree = "<group>"; };
+		CD8B4934236AC675006D9B45 /* TapAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapAnimationViewController.xib; sourceTree = "<group>"; };
+		CD8B4935236AC675006D9B45 /* GuideStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideStartViewController.xib; sourceTree = "<group>"; };
+		CD8B4936236AC675006D9B45 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD8B4937236AC675006D9B45 /* BtnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BtnViewController.xib; sourceTree = "<group>"; };
+		CD8B4938236AC675006D9B45 /* FlipSubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipSubViewController.xib; sourceTree = "<group>"; };
+		CD8B4939236AC675006D9B45 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		CD8B493A236AC675006D9B45 /* FlipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipViewController.swift; sourceTree = "<group>"; };
+		CD8B493B236AC675006D9B45 /* TipPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipPopViewController.swift; sourceTree = "<group>"; };
+		CD8B493C236AC675006D9B45 /* BtnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnViewController.swift; sourceTree = "<group>"; };
+		CD8B493D236AC675006D9B45 /* RecordAudioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordAudioViewController.xib; sourceTree = "<group>"; };
+		CD8B493E236AC675006D9B45 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		CD8B493F236AC675006D9B45 /* PanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanViewController.xib; sourceTree = "<group>"; };
+		CD8B4940236AC675006D9B45 /* TapAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAnimationViewController.swift; sourceTree = "<group>"; };
+		CD8B4941236AC675006D9B45 /* LongPressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressViewController.swift; sourceTree = "<group>"; };
+		CD8B4942236AC675006D9B45 /* PinchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchViewController.swift; sourceTree = "<group>"; };
+		CD8B4943236AC675006D9B45 /* DemoTouchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoTouchViewController.xib; sourceTree = "<group>"; };
+		CD8B4944236AC675006D9B45 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		CD8B4946236AC675006D9B45 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		CD8B4947236AC675006D9B45 /* ZoomScollVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomScollVIew.swift; sourceTree = "<group>"; };
+		CD8B4948236AC675006D9B45 /* PinchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchView.swift; sourceTree = "<group>"; };
+		CD8B4949236AC675006D9B45 /* ImageTitleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD8B494A236AC675006D9B45 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD8B494B236AC675006D9B45 /* TouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
+		CD8B494C236AC675006D9B45 /* GuideStartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideStartView.xib; sourceTree = "<group>"; };
+		CD8B494D236AC675006D9B45 /* ImageTitleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTitleCollectionViewCell.xib; sourceTree = "<group>"; };
+		CD8B494E236AC675006D9B45 /* GuideStartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideStartView.swift; sourceTree = "<group>"; };
+		CD8B4950236AC675006D9B45 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		CD8B4951236AC675006D9B45 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CD8B4952236AC675006D9B45 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD8B4953236AC675006D9B45 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDACD97C236993E3008EA187 /* LAniamtion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAniamtion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDACD979236993E3008EA187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8B490A236AC675006D9B45 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B490B236AC675006D9B45 /* LAnimation.xcworkspace */,
+				CD8B490C236AC675006D9B45 /* Pods */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		CD8B490C236AC675006D9B45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B490D236AC675006D9B45 /* Headers */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD8B490D236AC675006D9B45 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		CD8B490E236AC675006D9B45 /* LAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B490F236AC675006D9B45 /* Source */,
+				CD8B4925236AC675006D9B45 /* Assets.xcassets */,
+				CD8B4926236AC675006D9B45 /* LaunchScreen.storyboard */,
+				CD8B4928236AC675006D9B45 /* Examples */,
+				CD8B4952236AC675006D9B45 /* AppDelegate.swift */,
+				CD8B4953236AC675006D9B45 /* Info.plist */,
+			);
+			path = LAnimation;
+			sourceTree = "<group>";
+		};
+		CD8B490F236AC675006D9B45 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4910236AC675006D9B45 /* Extension */,
+				CD8B4912236AC675006D9B45 /* AnimationProtocol.swift */,
+				CD8B4913236AC675006D9B45 /* Common.swift */,
+				CD8B4914236AC675006D9B45 /* Controller */,
+				CD8B4916236AC675006D9B45 /* Model */,
+				CD8B4918236AC675006D9B45 /* View */,
+				CD8B491A236AC675006D9B45 /* Service */,
+				CD8B491E236AC675006D9B45 /* Animations */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CD8B4910236AC675006D9B45 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4911236AC675006D9B45 /* IFExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CD8B4914236AC675006D9B45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4915236AC675006D9B45 /* PopImageBrowser.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD8B4916236AC675006D9B45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4917236AC675006D9B45 /* MultiLanguageAlert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD8B4918236AC675006D9B45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4919236AC675006D9B45 /* TipPop.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD8B491A236AC675006D9B45 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B491B236AC675006D9B45 /* Param.swift */,
+				CD8B491C236AC675006D9B45 /* PathSerivce.swift */,
+				CD8B491D236AC675006D9B45 /* PopSerivce.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CD8B491E236AC675006D9B45 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B491F236AC675006D9B45 /* FlipAnimator.swift */,
+				CD8B4920236AC675006D9B45 /* PinchAnimation.swift */,
+				CD8B4921236AC675006D9B45 /* PanAnimation.swift */,
+				CD8B4922236AC675006D9B45 /* IFAnimaton.swift */,
+				CD8B4923236AC675006D9B45 /* TapAniamtion.swift */,
+				CD8B4924236AC675006D9B45 /* ProgressAnimation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		CD8B4928236AC675006D9B45 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4929236AC675006D9B45 /* Controller */,
+				CD8B4945236AC675006D9B45 /* View */,
+				CD8B494F236AC675006D9B45 /* Vender */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		CD8B4929236AC675006D9B45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B492A236AC675006D9B45 /* GuideStartViewController.swift */,
+				CD8B492B236AC675006D9B45 /* FlipViewController.xib */,
+				CD8B492C236AC675006D9B45 /* ProgressViewController.xib */,
+				CD8B492D236AC675006D9B45 /* LongPressViewController.xib */,
+				CD8B492E236AC675006D9B45 /* PinchViewController.xib */,
+				CD8B492F236AC675006D9B45 /* FlipSubViewController.swift */,
+				CD8B4930236AC675006D9B45 /* HomeViewController.xib */,
+				CD8B4931236AC675006D9B45 /* RecordAudioViewController.swift */,
+				CD8B4932236AC675006D9B45 /* PanViewController.swift */,
+				CD8B4933236AC675006D9B45 /* TipPopViewController.xib */,
+				CD8B4934236AC675006D9B45 /* TapAnimationViewController.xib */,
+				CD8B4935236AC675006D9B45 /* GuideStartViewController.xib */,
+				CD8B4936236AC675006D9B45 /* HomeViewController.swift */,
+				CD8B4937236AC675006D9B45 /* BtnViewController.xib */,
+				CD8B4938236AC675006D9B45 /* FlipSubViewController.xib */,
+				CD8B4939236AC675006D9B45 /* TestViewController.swift */,
+				CD8B493A236AC675006D9B45 /* FlipViewController.swift */,
+				CD8B493B236AC675006D9B45 /* TipPopViewController.swift */,
+				CD8B493C236AC675006D9B45 /* BtnViewController.swift */,
+				CD8B493D236AC675006D9B45 /* RecordAudioViewController.xib */,
+				CD8B493E236AC675006D9B45 /* TestViewController.xib */,
+				CD8B493F236AC675006D9B45 /* PanViewController.xib */,
+				CD8B4940236AC675006D9B45 /* TapAnimationViewController.swift */,
+				CD8B4941236AC675006D9B45 /* LongPressViewController.swift */,
+				CD8B4942236AC675006D9B45 /* PinchViewController.swift */,
+				CD8B4943236AC675006D9B45 /* DemoTouchViewController.xib */,
+				CD8B4944236AC675006D9B45 /* ProgressViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD8B4945236AC675006D9B45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4946236AC675006D9B45 /* ImageCollectionViewCell.xib */,
+				CD8B4947236AC675006D9B45 /* ZoomScollVIew.swift */,
+				CD8B4948236AC675006D9B45 /* PinchView.swift */,
+				CD8B4949236AC675006D9B45 /* ImageTitleCollectionViewCell.swift */,
+				CD8B494A236AC675006D9B45 /* ImageCollectionViewCell.swift */,
+				CD8B494B236AC675006D9B45 /* TouchView.swift */,
+				CD8B494C236AC675006D9B45 /* GuideStartView.xib */,
+				CD8B494D236AC675006D9B45 /* ImageTitleCollectionViewCell.xib */,
+				CD8B494E236AC675006D9B45 /* GuideStartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD8B494F236AC675006D9B45 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4950236AC675006D9B45 /* Protocol.swift */,
+				CD8B4951236AC675006D9B45 /* Extensions.swift */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		CDACD973236993E3008EA187 = {
+			isa = PBXGroup;
+			children = (
+				CD8B490A236AC675006D9B45 /* Example */,
+				CD8B490E236AC675006D9B45 /* LAnimation */,
+				CDACD97D236993E3008EA187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDACD97D236993E3008EA187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDACD97C236993E3008EA187 /* LAniamtion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDACD97B236993E3008EA187 /* LAniamtion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDACD990236993E5008EA187 /* Build configuration list for PBXNativeTarget "LAniamtion" */;
+			buildPhases = (
+				CDACD978236993E3008EA187 /* Sources */,
+				CDACD979236993E3008EA187 /* Frameworks */,
+				CDACD97A236993E3008EA187 /* Resources */,
+				CDACDA25236996FB008EA187 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAniamtion;
+			productName = LAniamtion;
+			productReference = CDACD97C236993E3008EA187 /* LAniamtion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDACD974236993E3008EA187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = lieon;
+				TargetAttributes = {
+					CDACD97B236993E3008EA187 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = CDACD977236993E3008EA187 /* Build configuration list for PBXProject "LAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDACD973236993E3008EA187;
+			productRefGroup = CDACD97D236993E3008EA187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDACD97B236993E3008EA187 /* LAniamtion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDACD97A236993E3008EA187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8B4965236AC675006D9B45 /* LaunchScreen.storyboard in Resources */,
+				CD8B497A236AC675006D9B45 /* TestViewController.xib in Resources */,
+				CD8B4973236AC675006D9B45 /* BtnViewController.xib in Resources */,
+				CD8B4967236AC675006D9B45 /* FlipViewController.xib in Resources */,
+				CD8B497B236AC675006D9B45 /* PanViewController.xib in Resources */,
+				CD8B496A236AC675006D9B45 /* PinchViewController.xib in Resources */,
+				CD8B4987236AC675006D9B45 /* GuideStartView.xib in Resources */,
+				CD8B4970236AC675006D9B45 /* TapAnimationViewController.xib in Resources */,
+				CD8B496F236AC675006D9B45 /* TipPopViewController.xib in Resources */,
+				CD8B497F236AC675006D9B45 /* DemoTouchViewController.xib in Resources */,
+				CD8B4988236AC675006D9B45 /* ImageTitleCollectionViewCell.xib in Resources */,
+				CD8B4969236AC675006D9B45 /* LongPressViewController.xib in Resources */,
+				CD8B4971236AC675006D9B45 /* GuideStartViewController.xib in Resources */,
+				CD8B4974236AC675006D9B45 /* FlipSubViewController.xib in Resources */,
+				CD8B4964236AC675006D9B45 /* Assets.xcassets in Resources */,
+				CD8B4968236AC675006D9B45 /* ProgressViewController.xib in Resources */,
+				CD8B4954236AC675006D9B45 /* LAnimation.xcworkspace in Resources */,
+				CD8B4979236AC675006D9B45 /* RecordAudioViewController.xib in Resources */,
+				CD8B4981236AC675006D9B45 /* ImageCollectionViewCell.xib in Resources */,
+				CD8B496C236AC675006D9B45 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDACD978236993E3008EA187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8B496B236AC675006D9B45 /* FlipSubViewController.swift in Sources */,
+				CD8B496E236AC675006D9B45 /* PanViewController.swift in Sources */,
+				CD8B4985236AC675006D9B45 /* ImageCollectionViewCell.swift in Sources */,
+				CD8B497E236AC675006D9B45 /* PinchViewController.swift in Sources */,
+				CD8B4980236AC675006D9B45 /* ProgressViewController.swift in Sources */,
+				CD8B4960236AC675006D9B45 /* PanAnimation.swift in Sources */,
+				CD8B495D236AC675006D9B45 /* PopSerivce.swift in Sources */,
+				CD8B4963236AC675006D9B45 /* ProgressAnimation.swift in Sources */,
+				CD8B4959236AC675006D9B45 /* MultiLanguageAlert.swift in Sources */,
+				CD8B497D236AC675006D9B45 /* LongPressViewController.swift in Sources */,
+				CD8B4989236AC675006D9B45 /* GuideStartView.swift in Sources */,
+				CD8B4983236AC675006D9B45 /* PinchView.swift in Sources */,
+				CD8B497C236AC675006D9B45 /* TapAnimationViewController.swift in Sources */,
+				CD8B498C236AC675006D9B45 /* AppDelegate.swift in Sources */,
+				CD8B4966236AC675006D9B45 /* GuideStartViewController.swift in Sources */,
+				CD8B4975236AC675006D9B45 /* TestViewController.swift in Sources */,
+				CD8B496D236AC675006D9B45 /* RecordAudioViewController.swift in Sources */,
+				CD8B4977236AC675006D9B45 /* TipPopViewController.swift in Sources */,
+				CD8B4986236AC675006D9B45 /* TouchView.swift in Sources */,
+				CD8B4984236AC675006D9B45 /* ImageTitleCollectionViewCell.swift in Sources */,
+				CD8B498B236AC675006D9B45 /* Extensions.swift in Sources */,
+				CD8B4956236AC675006D9B45 /* AnimationProtocol.swift in Sources */,
+				CD8B495C236AC675006D9B45 /* PathSerivce.swift in Sources */,
+				CD8B495B236AC675006D9B45 /* Param.swift in Sources */,
+				CD8B495F236AC675006D9B45 /* PinchAnimation.swift in Sources */,
+				CD8B4957236AC675006D9B45 /* Common.swift in Sources */,
+				CD8B498A236AC675006D9B45 /* Protocol.swift in Sources */,
+				CD8B4958236AC675006D9B45 /* PopImageBrowser.swift in Sources */,
+				CD8B4976236AC675006D9B45 /* FlipViewController.swift in Sources */,
+				CD8B4961236AC675006D9B45 /* IFAnimaton.swift in Sources */,
+				CD8B4972236AC675006D9B45 /* HomeViewController.swift in Sources */,
+				CD8B4982236AC675006D9B45 /* ZoomScollVIew.swift in Sources */,
+				CD8B4962236AC675006D9B45 /* TapAniamtion.swift in Sources */,
+				CD8B4955236AC675006D9B45 /* IFExtension.swift in Sources */,
+				CD8B4978236AC675006D9B45 /* BtnViewController.swift in Sources */,
+				CD8B495A236AC675006D9B45 /* TipPop.swift in Sources */,
+				CD8B495E236AC675006D9B45 /* FlipAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD8B4926236AC675006D9B45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8B4927236AC675006D9B45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDACD98E236993E5008EA187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDACD98F236993E5008EA187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDACD991236993E5008EA187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/LAnimation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LAniamtion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CDACD992236993E5008EA187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/LAnimation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LAniamtion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDACD977236993E3008EA187 /* Build configuration list for PBXProject "LAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDACD98E236993E5008EA187 /* Debug */,
+				CDACD98F236993E5008EA187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDACD990236993E5008EA187 /* Build configuration list for PBXNativeTarget "LAniamtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDACD991236993E5008EA187 /* Debug */,
+				CDACD992236993E5008EA187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDACD974236993E3008EA187 /* Project object */;
+}
