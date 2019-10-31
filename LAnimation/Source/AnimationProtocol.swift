@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 /// 互动教程动画类型
-enum IFTeachAnaimationType {
+public enum IFTeachAnaimationType {
     /// 放缩相关
     case pinch(PinchParam)
     /// 拖拽涂抹相关
@@ -20,7 +20,7 @@ enum IFTeachAnaimationType {
 }
 
 /// 动画接口规范
-protocol AnimationInterface {
+public protocol AnimationInterface {
     /// 当前动画所需要的参数-外部规定
     associatedtype AnimationParam
     
@@ -30,7 +30,7 @@ protocol AnimationInterface {
 }
 
 /// 放缩类的动画参数
-protocol PinchParam: AnimationParam {
+public protocol PinchParam: AnimationParam {
     /// 端点A的路径
     var pointsA: [CGPoint]! { get set }
     /// 端点B的路径
@@ -67,7 +67,7 @@ extension PinchParam {
 }
 
 /// 涂抹移动类的动画参数
-protocol PanParam: AnimationParam {
+public protocol PanParam: AnimationParam {
     /// 采集点
     var points: [CGPoint]! { get set }
     /// 点的起始填充色
@@ -102,7 +102,7 @@ extension PanParam {
 }
 
 /// 点击类的动画参数
-protocol TapAnimationParam: AnimationParam {
+public protocol TapAnimationParam: AnimationParam {
     /// 一帧动画所需要的时间，默认为0.25
     var speed: Double! { get set }
     ///  波纹的颜色
@@ -138,7 +138,7 @@ protocol AnimationTargetType: AnimationBase {
     func clear()
 }
 
-protocol AnimationParam {
+public protocol AnimationParam {
     var layer: CALayer! { get set }
     
     mutating func initial()

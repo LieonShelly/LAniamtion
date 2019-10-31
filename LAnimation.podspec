@@ -1,4 +1,4 @@
-#
+
 # Be sure to run `pod lib lint LAnimation.podspec' to ensure this is a
 # valid spec before submitting.
 #
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LAnimation'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Some animation cools'
 
 # This description is used to generate tags and improve search results.
@@ -25,12 +25,12 @@ TODO: Add long description of the pod hereDO: Add long description of the pod he
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lieon' => 'lieoncx@gmail.com' }
-  s.source           = { :git => 'https://github.com/LieonShelly/LAnimation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LieonShelly/LAnimation.git', :tag => '0.0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'LAnimation/Classes/**/*'
+  s.source_files = 'LAnimation/Source/*'
   
   # s.resource_bundles = {
   #   'LAnimation' => ['LAnimation/Assets/*.png']

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD8B4954236AC675006D9B45 /* LAnimation.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = CD8B490B236AC675006D9B45 /* LAnimation.xcworkspace */; };
 		CD8B4955236AC675006D9B45 /* IFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4911236AC675006D9B45 /* IFExtension.swift */; };
 		CD8B4956236AC675006D9B45 /* AnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4912236AC675006D9B45 /* AnimationProtocol.swift */; };
 		CD8B4957236AC675006D9B45 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4913236AC675006D9B45 /* Common.swift */; };
@@ -80,7 +79,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD8B490B236AC675006D9B45 /* LAnimation.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = LAnimation.xcworkspace; sourceTree = "<group>"; };
 		CD8B4911236AC675006D9B45 /* IFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFExtension.swift; sourceTree = "<group>"; };
 		CD8B4912236AC675006D9B45 /* AnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationProtocol.swift; sourceTree = "<group>"; };
 		CD8B4913236AC675006D9B45 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
@@ -152,37 +150,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD8B490A236AC675006D9B45 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				CD8B490B236AC675006D9B45 /* LAnimation.xcworkspace */,
-				CD8B490C236AC675006D9B45 /* Pods */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		CD8B490C236AC675006D9B45 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CD8B490D236AC675006D9B45 /* Headers */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		CD8B490D236AC675006D9B45 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
 		CD8B490E236AC675006D9B45 /* LAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				CD8B4928236AC675006D9B45 /* Examples */,
 				CD8B490F236AC675006D9B45 /* Source */,
 				CD8B4925236AC675006D9B45 /* Assets.xcassets */,
 				CD8B4926236AC675006D9B45 /* LaunchScreen.storyboard */,
-				CD8B4928236AC675006D9B45 /* Examples */,
 				CD8B4952236AC675006D9B45 /* AppDelegate.swift */,
 				CD8B4953236AC675006D9B45 /* Info.plist */,
 			);
@@ -331,7 +305,6 @@
 		CDACD973236993E3008EA187 = {
 			isa = PBXGroup;
 			children = (
-				CD8B490A236AC675006D9B45 /* Example */,
 				CD8B490E236AC675006D9B45 /* LAnimation */,
 				CDACD97D236993E3008EA187 /* Products */,
 			);
@@ -420,7 +393,6 @@
 				CD8B4974236AC675006D9B45 /* FlipSubViewController.xib in Resources */,
 				CD8B4964236AC675006D9B45 /* Assets.xcassets in Resources */,
 				CD8B4968236AC675006D9B45 /* ProgressViewController.xib in Resources */,
-				CD8B4954236AC675006D9B45 /* LAnimation.xcworkspace in Resources */,
 				CD8B4979236AC675006D9B45 /* RecordAudioViewController.xib in Resources */,
 				CD8B4981236AC675006D9B45 /* ImageCollectionViewCell.xib in Resources */,
 				CD8B496C236AC675006D9B45 /* HomeViewController.xib in Resources */,

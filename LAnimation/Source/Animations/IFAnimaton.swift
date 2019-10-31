@@ -11,12 +11,11 @@ import Foundation
 /**
 互动教程动画外部接口
  */
-open class IFAnimation: AnimationInterface {
-    typealias AnimationParam = IFTeachAnaimationType
-    
+public class IFAnimation: AnimationInterface {
+    public typealias AnimationParam = IFTeachAnaimationType
     
     @discardableResult
-    static func show(_ param: AnimationParam, completion: ((Bool) -> Void)? = nil) -> String {
+    public  static func show(_ param: AnimationParam, completion: ((Bool) -> Void)? = nil) -> String {
         switch param {
         case .tap(let tapParam):
            return TapAniamtion.showWave(with: tapParam, completion: completion)
