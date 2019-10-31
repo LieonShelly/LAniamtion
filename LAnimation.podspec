@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LAnimation'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Some animation cools'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,14 @@ TODO: Add long description of the pod hereDO: Add long description of the pod he
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'LAnimation/Source/*'
+  s.source_files = [
+                    'LAnimation/Source/*.swift',
+                    'LAnimation/Source/Animations/*.swift',
+                    'LAnimation/Source/Extension/*.swift',
+                    'LAnimation/Source/Model/*.swift',
+                    'LAnimation/Source/Service/*.swift',
+                    'LAnimation/Source/View/*.swift'
+                  ]
   
   # s.resource_bundles = {
   #   'LAnimation' => ['LAnimation/Assets/*.png']
