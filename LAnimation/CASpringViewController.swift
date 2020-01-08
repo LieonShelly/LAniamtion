@@ -1,14 +1,14 @@
 //
-//  FlipSubViewController.swift
-//  AnimationDemo
+//  CASpringViewController.swift
+//  LAniamtion
 //
-//  Created by lieon on 2019/10/16.
-//  Copyright © 2019 lieon. All rights reserved.
+//  Created by lieon on 2020/1/8.
+//  Copyright © 2020 lieon. All rights reserved.
 //
 
 import UIKit
 
-class FlipSubViewController: UIViewController {
+class CASpringViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
